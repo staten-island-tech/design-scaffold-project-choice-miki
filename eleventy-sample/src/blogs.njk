@@ -17,8 +17,8 @@
                     <h4 class="article-author">By {{post.data.author}}: {{post.data.date | postDate}}</h4>
 
                     <a href="{{post.url}}" class="article-link">Continue Reading</a>
+                    <img src="{{post.data.image}}" alt="" class="img-preview">
                 </div>
-                <img src="{{post.data.image}}" alt="" class="img-preview">
             </article>
             {%- endfor -%}
         </ul>

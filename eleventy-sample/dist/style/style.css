@@ -15,3 +15,20 @@ class{
 md{
     color: rgb(45, 6, 6);
 }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: 1px solid rgb(148, 120, 120);
+  }
+.articles {
+    display: flex;
+    flex-flow: column;
+}
+.article-text {
+    width: 70%;
+    height: 60%;
+    background-color: rgb(220, 182, 182);
+  }
+
