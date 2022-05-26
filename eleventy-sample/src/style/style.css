@@ -31,4 +31,23 @@ img {
     height: 60%;
     background-color: rgb(220, 182, 182);
   }
-
+.article-text:hover {
+    background-color: rgb(222, 176, 210);
+  }
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .button {
+    position: absolute;
+    top:50%;
+    background-color:#2b2bbf;
+    color: #fff;
+    border:none;
+  }
